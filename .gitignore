@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model checkpoints / large binaries
+*.pth
+*.pt
+*.ckpt
+*.ckpt.*
+gpt2/
+PreTraining/gpt2/
+model.ckpt*
+*.data-00000-of-00001
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
